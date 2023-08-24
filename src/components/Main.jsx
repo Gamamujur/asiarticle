@@ -15,7 +15,7 @@ const Main = () => {
       <AnimatePresence mode="wait" initial={false}>
         <Routes location={location} key={location.key}>
           <Route
-            path="/asiarticle/"
+            path="/"
             element={<Hero handleButtonRoute={handleButtonRoute} />}
           />
           <Route path="/countrydetail/:id" element={<WrappedCountryDetail />} />
